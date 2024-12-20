@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+   
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(s1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh;
+    min-width: 100vh;
+    background: url(s1.jpg) no-repeat center/cover;
+
+}
+
+
+
+.couleur{
+    background-color: rgba(43, 32, 32, 0.808);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 75px;
+   align-items: center;
+}
+
+.menu{
+    min-width: 100vh;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    height: 35px;
+    
+
+}
+.top{
+    height: 35px;
+    width: 100%;
+    min-width: 100vh;
+    background-color: rgba(0, 0, 0, 0.178);
+    box-shadow: -9px -2px 20px 0px #0000008a;;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 270px;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 12px;
+    font-size: 14px;
+  
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.6s ease-in-out;
+}
+
+ul li a:hover{
+    color:   #ff7200;
+}
+
+.content{
+    
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 100px;
+    padding-top: 7%;
+    padding-bottom: 50px;
+    font-family: cursive;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.Sbh{
+    background-color: #07070762;
+    width: 20%;
+    height: 90vh;
+}
+
+
+
+
+
+.sbhh button{
+
+    width: 250px;
+    height: 50px;
+    background:#ff7200(255, 0, 0) ; 
+    color: rgb(0, 0, 0);
+    border: solid black ;
+    border-radius: 10px;
+  margin-top: 100px;
+  padding-top: 0px;
+    font-size: large;
+    letter-spacing: 1px;
+
+
+}
+
+.sbhh  button:hover{
+    background: #fff;
+    color: #ff7200;
+    transition: 0.9s;
+}
+
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 60px;
+   padding-left: 30%;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+.content .cn a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.849);
+    transition: .3s ease;
+  
+    font-weight: bold;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 65px;
+    text-shadow: 8px 1px 8px rgb(44, 41, 41)}
+
+
+
+.txx{
+    padding-left: 20px;
+    height:300px;
+    width:400px;
+    padding-top: 5%;
+    color: #000;
+    font-family: verdana;
+    font-size: x-large;
+
+}
+
+.txx{
+    padding-left: 20px;
+    height:300px;
+    width: 400px;
+    padding-top: 5%;
+    color: #000;
+    font-family: verdana;
+    font-size: x-large;
+
+}
+
+
+
+
+
+
+.form{
+    width: 250px;
+ margin-top: -200px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    top: 90px;
+    left: 420px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.formm{
+    width: 250px;
+    margin-top: 30px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    top: 90px;
+    left: 420px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color:#ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.formm h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.F1 input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #ff7200;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 13px;
+    font-family: sans-serif;
+}
+
+.F1 select{
+    width: 240px;
+    height: 30px;
+    background:rgba(0, 0, 0, 0) ; 
+    color: #ff7200(248, 0, 0);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: large;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family: sans-serif;
+
+}
+.F1 button{
+
+    width: 250px;
+    height: 50px;
+    background:#ff7200(255, 0, 0) ; 
+    color: rgb(0, 0, 0);
+    border: solid black ;
+    border-radius: 10px;
+  margin-top: -10px;
+  padding-top: 0px;
+    font-size: large;
+    letter-spacing: 1px;
+
+
+}
+.F1 button:hover{
+    background: #fff;
+    color: #ff7200;
+    transition: 0.9s;
+}
+
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
+
+.sou{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+
+.Sbh .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.Sbh .cn a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.849);
+    transition: .3s ease;
+  
+    font-weight: bold;
+}
