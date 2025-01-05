@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-width: 900px;
+    margin: 0px;
+    height: 100vh;
+}
+
+.main {
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background: url(AV.jpg) no-repeat center/cover;
+}
+
+.main2 {
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    background: url(lo.jpg) no-repeat center/cover;
+}
+
+.couleur {
+    background-color: #007BFF; /* Couleur principale */
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar {
+    height: 75px;
+    align-items: center;
+}
+
+.menu {
+    min-width: auto;
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    height: 35px;
+}
+
+.top {
+    height: 35px;
+    width: 100%;
+    background-color: #F8F9FA; /* Couleur secondaire */
+    box-shadow: -9px -2px 20px 0px #0000008a;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFFFFF; /* Couleur du texte */
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.6s ease-in-out;
+}
+
+ul li a:hover {
+    color: #FFC107; /* Couleur d'accentuation */
+}
+
+.content h1 {
+    font-family: 'Times New Roman';
+    font-size: 60px;
+    padding-left: 30%;
+    margin-top: 5%;
+    letter-spacing: 2px;
+    color: #FFFFFF; /* Couleur du texte */
+}
+
+.content .cn {
+    width: 160px;
+    height: 40px;
+    background: #FFC107; /* Couleur d'accentuation */
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.cn:hover {
+    background-color: #FFFFFF;
+    color: #007BFF; /* Couleur principale */
+}
+
+::placeholder {
+    color: #007BFF; /* Couleur principale */
+    font-family: Arial;
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #007BFF; /* Couleur principale */
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #FFFFFF;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #FFC107; /* Couleur d'accentuation */
+    color: #FFFFFF;
+}
+
+.VARE {
+    height: 50px;
+    width: 140px;
+    background-color: #FFC107; /* Couleur d'accentuation */
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.5s ease-in;
+}
+
+.VARE:hover {
+    background-color: #007BFF; /* Couleur principale */
+    color: #FFFFFF;
+    transition: 0.5s ease;
+}
