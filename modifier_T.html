@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulaire Train</title>
+    <title>Formulaire Trains</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -34,7 +34,7 @@
             font-weight: bold;
         }
         input[type="text"],
-        input[type="number"] {
+        textarea {
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
@@ -58,45 +58,42 @@
     </style>
 </head>
 <body>
-    <form action="ajouter_T.php" method="post">
-        <h2>ajouter Train</h2>
+    <form action="Modifier_T.php" method="post">
+        <h2>Modifier un Trains</h2>
 
         <!-- Champ ID (automatique, caché) -->
         <input type="hidden" name="train_id">
 
-        <!-- Champ Nom -->
-        <label for="ID">ID du Train</label>
-        <input type="text" id="ID" name="Modifier" maxlength="100" placeholder="Entrez le nom du train" required>
-        
-        
+        <label for="nom">ID du Train</label>
+        <input type="text" id="nom" name="Modifier" maxlength="100" placeholder="Entrez le nom de la gare" required>
+
         <!-- Champ Nom -->
         <label for="nom">Nom du Train</label>
-        <input type="text" id="nom" name="nom" maxlength="100" placeholder="Entrez le nom du train" required>
+        <input type="text" id="nom" name="nom" maxlength="100" placeholder="Entrez le nom de la gare" required>
 
-        <!-- Champ Type -->
+        
+
+        <!-- Champ Ville -->
         <label for="type">Type de Train</label>
-        <input type="text" id="type" name="type" maxlength="50" placeholder="Entrez le type (ex : express, TGV)">
+        <input type="text" id="type" name="type" maxlength="100" placeholder="Entrez la ville" required>
 
-        <!-- Champ Capacité -->
+        <!-- Champ Adresse -->
         <label for="capacite">Capacité</label>
         <input type="number" id="capacite" name="capacite" min="1" placeholder="Entrez la capacité" required>
+          <!-- Champ Adresse -->
+          <label for="villedep">villedep</label>
+          <input type="text" id="villedep" name="villedep" min="1" placeholder="Entrez la capacité" required>
+            <!-- Champ Adresse -->
+        <label for="villearr">villearr</label>
+        <input type="text" id="villearr" name="villearr" min="1" placeholder="Entrez la capacité" required>
+          <!-- Champ Adresse -->
+          <label for="siege">siege</label>
+          <input type="test" id="siege" name="siege" min="1" placeholder="Entrez le nombre de siege" required>
 
-         <!-- Champ Nom -->
-        <label for="nom">Ville de depart </label>
-        <input type="text" id="villedep" name="villedep" maxlength="100" placeholder="Entrez le ville de depart du train" required>
-        
-        <!-- Champ Type -->
-        <label for="type">Ville d'arriver</label>
-        <input type="text" id="villearr" name="villearr" maxlength="50" placeholder="Entrez le ville d'arriver du train">
-        
-        <!-- Champ Capacité -->
-        <label for="siege">Siege</label>
-        <input type="number" id="siege" name="siege" min="1" placeholder="Entrez le siege" required>
+          <label for="date_T">date_disponibilite</label>
+          <input type="date" id="date_T" name="date_T" min="1" placeholder="Entrez la date_disponibilite" required>
 
-        <label for="date_T">date_disponibilite</label>
-        <input type="date" id="date_T" name="date_T" min="1" placeholder="Entrez la date_disponibilite" required>
-        
-         <!-- Bouton d'envoi -->
+        <!-- Bouton d'envoi -->
         <button type="submit">Soumettre</button>
     </form>
 </body>
